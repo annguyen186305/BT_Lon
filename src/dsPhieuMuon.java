@@ -6,7 +6,7 @@ public class dsPhieuMuon {
     public void nhapdsPhieuMuon(){
         int soPM;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap vao so phieu muon:");
+        System.out.print("Nhap vao tong so phieu muon:");
         soPM = sc.nextInt();
         lstPM = new ArrayList<PhieuMuon>(soPM);
         for (int i=0; i<soPM; i++){

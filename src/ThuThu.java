@@ -13,7 +13,7 @@ public class ThuThu extends Nguoi {
     }
     public void xuat(){
         super.xuat();
-        System.out.print("Ma thu thu:" + maThuThu);
-        System.out.print("Ca lam:" + caLam);
+        System.out.print("\nMa thu thu:" + maThuThu);
+        System.out.print("\nCa lam:" + caLam);
     }
 }

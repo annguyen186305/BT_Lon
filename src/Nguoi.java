@@ -8,7 +8,7 @@ public class Nguoi {
    private String Email;
    public void nhap(){
        Scanner sc = new Scanner(System.in);
-       System.out.print("Nhap vao ho ten:");
+       System.out.print("\nNhap vao ho ten:");
        hoTen = sc.nextLine();
        System.out.print("Nhap vao ngay sinh:");
        ngSinh = sc.nextLine();
@@ -20,10 +20,10 @@ public class Nguoi {
        Email = sc.nextLine();
    }
    public void xuat(){
-       System.out.print("Ho ten:" + hoTen);
-       System.out.print("Ngay sinh:" + ngSinh);
-       System.out.print("Dia chi:" + diaChi);
-       System.out.print("SDT:" + SDT);
-       System.out.print("Email:" + Email);
+       System.out.print("\nHo ten:" + hoTen);
+       System.out.print("\nNgay sinh:" + ngSinh);
+       System.out.print("\nDia chi:" + diaChi);
+       System.out.print("\nSDT:" + SDT);
+       System.out.print("\nEmail:" + Email);
    }
 }

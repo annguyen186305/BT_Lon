@@ -17,9 +17,9 @@ public class Sach {
         theLoai = sc.nextLine();
     }
     public void xuat() {
-        System.out.print("Ma sach: " + maSach);
-        System.out.print("Ten sach: " + tenSach);
-        System.out.print("Tac gia: " + tacGia);
-        System.out.print("The loai: " + theLoai);
+        System.out.print("\nMa sach: " + maSach);
+        System.out.print("\nTen sach: " + tenSach);
+        System.out.print("\nTac gia: " + tacGia);
+        System.out.print("\nThe loai: " + theLoai);
     }
 }

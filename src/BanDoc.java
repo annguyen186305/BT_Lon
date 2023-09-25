@@ -13,7 +13,7 @@ public class BanDoc extends Nguoi {
     }
     public void xuat(){
         super.xuat();
-        System.out.print("Ma ban doc:" + maBanDoc);
-        System.out.print("Doi tuong:" + doiTuong);
+        System.out.print("\nMa ban doc:" + maBanDoc);
+        System.out.print("\nDoi tuong:" + doiTuong);
     }
 }
