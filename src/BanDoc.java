@@ -16,4 +16,8 @@ public class BanDoc extends Nguoi {
         System.out.print("\nMa ban doc:" + maBanDoc);
         System.out.print("\nDoi tuong:" + doiTuong);
     }
+
+    public String getMaBanDoc() {
+        return maBanDoc;
+    }
 }

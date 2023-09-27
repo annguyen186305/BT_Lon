@@ -44,4 +44,20 @@ public class PhieuMuon  {
         System.out.print("\nNgay muon:" + ngayMuon);
         System.out.print("\nNgay tra:" + ngayHenTra);
     }
+
+    public ArrayList<Sach> getLstSach() {
+        return lstSach;
+    }
+    public int timSach(String mas)
+    {
+        int vt=-1;
+        for(int i=0; i<lstSach.size(); i++)
+            if (lstSach.get(i).getMaSach().equals(mas))
+                vt = i;
+        return vt;
+    }
+
+    public BanDoc getBd() {
+        return bd;
+    }
 }

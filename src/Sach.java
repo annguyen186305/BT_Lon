@@ -22,4 +22,12 @@ public class Sach {
         System.out.print("\nTac gia: " + tacGia);
         System.out.print("\nThe loai: " + theLoai);
     }
+
+    public String getTenSach() {
+        return tenSach;
+    }
+
+    public String getMaSach() {
+        return maSach;
+    }
 }
